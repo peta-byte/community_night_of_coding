@@ -1,0 +1,51 @@
+body {
+    background-color: skyblue;
+    background-image: url('./landscape.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    padding: 20px;
+    margin: 0;
+    width: 100vw;
+    min-width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+  }
+  h1, p {
+    font-family: 'Raleway', sans-serif;
+    padding: .25%;
+  }
+  .content {
+    background-color: white;
+    padding: 20px;    
+  }
+  #iframe {
+    width: 30vw;
+    min-width: 40vw;
+    height: 30vw;
+    min-height: 30vw;
+    background-color: white;
+    position: relative;
+  }
+  #h1 {
+    text-align: center;
+  }
+@media screen and (max-width: 600px) {
+    #header {
+        display: none;
+    }
+    h1 {
+        display: none;
+    }
+    body {
+        background-color: skyblue;
+        background-image: none;
+    }
+    #iframe {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+  
+  
